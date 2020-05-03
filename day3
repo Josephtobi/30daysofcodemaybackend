@@ -1,0 +1,17 @@
+def santa (sib,sweets):
+    '''
+    given two input
+    we check if sweets can be shared evenly btw the sibs
+    if yes we share
+    else we eat it all
+    '''
+    try: 
+        if sweets%sib==0:
+            return 'give away'
+        else:
+            return 'eat them yourself'
+    except:
+        return 'invalid input'
+
+print(santa(3,9))
+print(santa(3,8))
