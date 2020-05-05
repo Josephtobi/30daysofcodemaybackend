@@ -1,0 +1,8 @@
+def Cstrings(strings):
+    a=strings.upper()
+    b=strings.lower()
+    c=a+', '+b
+    print (c)
+    
+    
+Cstrings('IloveYOU')
