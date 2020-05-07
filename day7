@@ -1,0 +1,12 @@
+def Psum(li1,li2):
+    li3=[]
+    result=0
+    for i,j in zip(li1,li2):
+        li3.append(i*j)
+    print(li3)
+    for i in li3:
+        result=result+i
+    print(result)
+                
+        
+Psum([1,2,3],[4,5,6])
