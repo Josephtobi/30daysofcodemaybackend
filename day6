@@ -1,0 +1,15 @@
+def Zero(n):
+    '''after calculating the factorial
+    we check how many zeros are behind
+    and relay the number
+    '''
+    fac=1
+    for i in range(1,n+1):
+        fac=fac*i
+    count=0
+    while fac%10==0:
+        count=count+1
+        fac=fac//10
+    return(count)
+    
+print(Zero(100))
